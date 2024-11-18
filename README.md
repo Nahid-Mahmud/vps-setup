@@ -60,4 +60,31 @@ Install NVM
 </pre>
 Note: If version not showing please close the terminal and try again
 
+## STEP 4
+git hub connection 
+<pre>
+  <code id="example-code">
+    ls -al ~/.ssh
+  </code>
+</pre>
+<pre>
+  <code id="example-code">
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  </code>
+</pre>
+<pre>
+  <code id="example-code">
+    eval "$(ssh-agent -s)"
+  </code>
+</pre>
+<pre>
+  <code id="example-code">
+    cat ~/.ssh/id_rsa.pub
+  </code>
+</pre>
+Then copy the ssh key and pas it on your SSH and GPG kesy on your git hub clik new ssh key and write project name and past the key
+
+
+
+
 
