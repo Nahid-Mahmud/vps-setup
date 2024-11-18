@@ -53,3 +53,11 @@ Install NVM
   </code>
 </pre>
 
+<pre>
+  <code id="example-code">
+    nvm -v
+  </code>
+</pre>
+Note: If version not showing please close the terminal and try again
+
+
