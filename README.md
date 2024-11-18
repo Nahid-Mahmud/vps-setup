@@ -84,6 +84,11 @@ git hub connection
 </pre>
 Then copy the ssh key and pas it on your SSH and GPG kesy on your git hub clik new ssh key and write project name and past the key
 
+<pre>
+  <code id="example-code">
+   ssh -T git@github.com
+  </code>
+</pre>
 
 
 
