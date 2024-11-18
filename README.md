@@ -90,6 +90,16 @@ Then copy the ssh key and pas it on your SSH and GPG kesy on your git hub clik n
   </code>
 </pre>
 
+### STEP 5
+Setup nginx 
+<pre>
+  <code id="example-code">
+    sudo ufw allow 80/tcp
+    sudo ufw allow 443/tcp
+    sudo ufw reload
+  </code>
+</pre>
+
 
 
 
