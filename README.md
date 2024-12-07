@@ -32,7 +32,7 @@ Enabling and Configuring UFW (Uncomplicated Firewall)
 
 <pre>
   <code id="example-code">
-   sudo ufw allow PORT
+   sudo ufw allow 22
   </code>
 </pre>
 
