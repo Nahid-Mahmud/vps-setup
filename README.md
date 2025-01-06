@@ -61,3 +61,9 @@ Setup nginx
 <pre><code id="example-code">sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
 sudo ufw reload</code></pre>
+
+
+### Start your app with pm2
+
+
+<pre><code id="example-code">pm2 start npm --name "nextjs-app" -- start</code></pre>
