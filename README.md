@@ -67,6 +67,6 @@ sudo ufw reload</code></pre>
 
 
 <pre>
-   <code id="example-code">sudo npm install -g pm2</code>
-  <code id="example-code">pm2 start npm --name "nextjs-app" -- start</code>
+<code id="example-code">npm install -g pm2</code>
+<code id="example-code">pm2 start npm --name "nextjs-app" -- start</code>
 </pre>
