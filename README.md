@@ -60,6 +60,7 @@ Setup nginx
 
 <pre><code id="example-code">sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
+sudo ufw allow 2525/tcp
 sudo ufw reload</code></pre>
 
 
